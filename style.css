@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.con-mat{
+  display: flex;
+  justify-content: space-around;
+}
+.box-1, .box-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-box{
+  display: flex;
+  align-items: center;
+}
+.input-mat {
+  width : 50px;
+  height: 30px;
+  font-size: 20px;
+  margin : 5px;
+  text-align: center;
+}
+.kon-mat{
+  border: 1px solid;
+}
+.inpRC{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+.box-1 span, .box-2 span{
+  font-size: 50px;
+}
+h1{
+  text-align: center;
+}
+.create{
+  width: 100%;
+  margin-top: 3px;
+  padding: 3px;
+  font-weight: bold;
+}
+.opr{
+  width: 100px;
+  margin: 5px;
+  font-weight: bold;
+  padding: 3px;
+}
+.baris{
+  display: flex;
+  justify-content: center;
+}
+.mat-1, .mat-2{
+  text-align: center;
+  padding: 10px;
+  border-left: 1px solid;
+  display: inline-block;
+  border-right: 1px solid;
+  border-radius: 10px;
+}
+.conmat1, .conmat2{
+  margin: 5px 0px;
+  text-align: center;
+}
+.proses{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.spn-pros{
+  display: inline-block;
+  margin: 3px 8px;
+  padding: 2px;
+  text-align: center;
+}
+.proses{
+   display: inline-block;
+   border-radius: 10px;
+   padding: 0px 10px;
+}
+.brd-rd{
+  border-left: 1px solid; 
+  border-right: 1px solid;
+}
+.con-pros-res{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.hasil{
+  border-radius: 10px;
+  padding: 5px;
+}
+.cntr-mat{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hide{
+  display: none;
+}
+.metod{
+  margin: 10px 0px;
+}
+.brd{
+  border: 1px solid;
+}
+.red{
+  border: 1px solid red;
+}
+.reskal-1{
+  font-size: 16px;
+}
+.reskal-2{
+  font-size: 11px;
+}
+.center{
+  text-align: center;
+}
+.subMetod{
+  display: flex;
+  justify-content: center;
+}
+nav{
+  box-shadow: 0px 0px 2px black;
+}
+.wrapPros{
+  display: flex;
+  margin: 3px;
+  justify-content: space-beetwen;
+}
+.tiga{
+  font-size: 15px;
+}
